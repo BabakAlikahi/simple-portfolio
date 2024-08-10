@@ -1,0 +1,59 @@
+@import "Variables";
+@mixin size($x,$y){
+  width: $x;
+  height: $y;
+}
+@mixin transition(){
+  transition: all 0.5s ease;
+}
+@mixin btn(){
+  background-color: $purple!important;
+  border-color: $purple!important;
+  color: $white;
+  font-size: 13px;
+  @include transition();
+}
+@mixin btn_hover(){
+  color: $purple!important;
+  background-color: white!important;
+  border-color: $purple!important;
+}
+@mixin ul{
+  margin: 15px 0 0;
+  padding: 0;
+  list-style-type: none;
+  li{
+    line-height: 35px;
+    i {
+      padding-left: 10px;
+    }
+  }
+}
+
+@mixin MediaQuery($Input){
+  @if($Input==$Large){
+    @media (min-width: 1200px) {
+      @content
+    }
+  }
+  @else if($Input==$Medium){
+    @media (min-width: 990px) and (max-width: 1200px){
+      @content
+    }
+  }
+  @else if($Input==$Small){
+    @media (min-width: 768px) and (max-width: 990px){
+      @content
+    }
+  }
+  @else if($Input==$XSmall){
+    @media (min-width: 560px) and (max-width: 768px){
+      @content
+    }
+  }
+  @else{
+    @media (max-width: 560px){
+      @content
+    }
+  }
+}

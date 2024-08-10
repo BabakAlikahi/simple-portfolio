@@ -1,0 +1,918 @@
+@media (min-width: 990px) and (max-width: 1200px) {
+  .intro {
+    background: #f4f6f8 url("../img/intro/intro_bg.png") no-repeat 0px -10px;
+  }
+  .intro .intro_side {
+    height: 450px;
+  }
+  .intro .intro_right {
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .intro .intro_right h2 {
+    color: #4da6e7;
+  }
+  .intro .intro_right span {
+    color: #4da6e7;
+  }
+  .intro .intro_right h2, .intro .intro_right h3, .intro .intro_right p {
+    line-height: 50px;
+  }
+  .intro .intro_left {
+    padding: 50px 80px 0 80px;
+    box-sizing: border-box;
+  }
+  .intro .intro_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about_me .about_side {
+    height: 450px;
+  }
+  .about_me .about_left {
+    padding-top: 30px;
+  }
+  .about_me .about_left p {
+    line-height: 25px;
+    width: 95%;
+    margin-top: 15px;
+    text-align: justify;
+  }
+  .about_me .about_right {
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .about_me .about_right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .course {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #f4f6f8 url("../img/course/qwqq.png") no-repeat;
+  }
+  .course .container {
+    padding: 0;
+  }
+  .course .course_col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .course .course_box {
+    position: relative;
+    box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+    border: 1px solid rgba(114, 106, 227, 0.2862745098) !important;
+    text-transform: capitalize !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .course .course_box img {
+    width: 20px;
+    height: 20px;
+  }
+  .course .course_box h4 {
+    margin-bottom: 20px;
+  }
+  .course .course_box h4 span {
+    color: #726ae3 !important;
+  }
+  .course .course_box:hover {
+    background-color: whitesmoke;
+  }
+
+  .ability {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ability .ability_side {
+    min-height: 400px;
+  }
+  .ability .ability_right {
+    padding-top: 10px;
+  }
+  .ability .ability_right .ability_title {
+    position: relative;
+    background-color: #f4f6f8;
+  }
+  .ability .ability_right .ability_title p {
+    line-height: 60px;
+    padding-right: 10px;
+  }
+  .ability .ability_right .ability_title img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .ability .ability_right .ability_part {
+    border-top: unset !important;
+    border-bottom: unset !important;
+  }
+  .ability .ability_right .ability_part .ability_box {
+    border-bottom: 1px solid #e2e5e9;
+    position: relative;
+  }
+  .ability .ability_right .ability_part .ability_box p {
+    width: 70%;
+    border-left: 1px solid #e2e5e9;
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .ability .ability_right .ability_part .ability_box span {
+    width: 30%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+  }
+  .ability .ability_left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .ability .ability_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background: #f4f6f8;
+    padding-top: 30px;
+  }
+  .contact form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact form .first_col {
+    padding-right: 0;
+  }
+  .contact form .second_col {
+    padding-left: 0;
+  }
+  .contact form .form-control {
+    font-size: 14px;
+  }
+  .contact form textarea {
+    resize: none;
+    height: 130px !important;
+  }
+  .contact form label {
+    right: 0;
+    left: unset;
+    font-size: 13px;
+  }
+  .contact form input:focus + label {
+    font-size: 12px;
+  }
+  .contact form textarea:focus + label {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .menu {
+    background-color: white !important;
+    height: 100px;
+  }
+  .menu .menu_collapse {
+    text-align: right;
+  }
+  .menu .menu_collapse .menu_ul li {
+    margin-left: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  .menu .menu_collapse .menu_ul li a {
+    color: #6e6e6e !important;
+    padding: 0 10px;
+    line-height: 30px;
+    height: 30px;
+  }
+  .menu .menu_collapse .menu_ul li .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    cursor: pointer;
+    background-color: rgba(77, 166, 231, 0.03);
+  }
+  .menu .menu_collapse .menu_ul li:hover a {
+    border-bottom: 2px solid #4da6e7;
+  }
+  .menu .menu_collapse .menu_ul li:hover .cover {
+    top: 0;
+  }
+
+  .intro {
+    background: #f4f6f8 url("../img/intro/intro_bg.png") no-repeat 0px -10px;
+  }
+  .intro .intro_side {
+    height: 450px;
+  }
+  .intro .intro_right {
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .intro .intro_right h2 {
+    color: #4da6e7;
+  }
+  .intro .intro_right span {
+    color: #4da6e7;
+  }
+  .intro .intro_right h2, .intro .intro_right h3, .intro .intro_right p {
+    line-height: 50px;
+  }
+  .intro .intro_left {
+    padding: 50px 80px 0 80px;
+    box-sizing: border-box;
+  }
+  .intro .intro_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .course {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #f4f6f8 url("../img/course/qwqq.png") no-repeat 0 110px;
+  }
+  .course .container {
+    max-width: 100%;
+  }
+  .course .course_col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .course .course_box {
+    position: relative;
+    box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+    border: 1px solid rgba(114, 106, 227, 0.2862745098) !important;
+    text-transform: capitalize !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .course .course_box img {
+    width: 20px;
+    height: 20px;
+  }
+  .course .course_box h4 {
+    margin-bottom: 20px;
+  }
+  .course .course_box h4 span {
+    color: #726ae3 !important;
+  }
+  .course .course_box:hover {
+    background-color: whitesmoke;
+  }
+
+  .ability {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ability .ability_side {
+    min-height: 400px;
+  }
+  .ability .ability_right {
+    padding-top: 10px;
+  }
+  .ability .ability_right .ability_title {
+    position: relative;
+    background-color: #f4f6f8;
+  }
+  .ability .ability_right .ability_title p {
+    line-height: 60px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .ability .ability_right .ability_title img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .ability .ability_right .ability_part {
+    border-top: unset !important;
+    border-bottom: unset !important;
+  }
+  .ability .ability_right .ability_part .ability_box {
+    border-bottom: 1px solid #e2e5e9;
+    position: relative;
+  }
+  .ability .ability_right .ability_part .ability_box p {
+    width: 70%;
+    border-left: 1px solid #e2e5e9;
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .ability .ability_right .ability_part .ability_box span {
+    width: 30%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+  }
+  .ability .ability_left {
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+  }
+  .ability .ability_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .goals .description .description_side {
+    height: 400px;
+  }
+  .goals .description .description_right {
+    padding-left: 0;
+  }
+  .goals .description .description_right img {
+    width: 100%;
+    height: 100%;
+  }
+  .goals .description .description_left {
+    text-align: justify;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .goals .description .description_left p {
+    line-height: 30px;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background: #f4f6f8;
+    padding-top: 30px;
+  }
+  .contact form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact form .first_col {
+    padding-right: 0;
+  }
+  .contact form .second_col {
+    padding-left: 0;
+  }
+  .contact form .form-control {
+    font-size: 14px;
+  }
+  .contact form textarea {
+    resize: none;
+    height: 130px !important;
+  }
+  .contact form label {
+    right: 0;
+    left: unset;
+    font-size: 13px;
+  }
+  .contact form input:focus + label {
+    font-size: 12px;
+  }
+  .contact form textarea:focus + label {
+    font-size: 12px;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .top p {
+    font-size: 12px;
+  }
+
+  .ul {
+    font-size: 15px;
+  }
+
+  .menu {
+    background-color: #726ae3 !important;
+    height: auto;
+  }
+  .menu .menu_collapse {
+    text-align: center;
+  }
+  .menu .menu_collapse .menu_ul li {
+    margin-left: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  .menu .menu_collapse .menu_ul li a {
+    color: #ffffff !important;
+    padding: 0 5px;
+    line-height: 45px;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+  }
+  .menu .menu_collapse .menu_ul li .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    cursor: pointer;
+    background-color: rgba(77, 166, 231, 0.03);
+  }
+  .menu .menu_collapse .menu_ul li .cover .nav-link_cover {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .menu .menu_collapse .menu_ul li:hover a {
+    border-bottom: 2px solid #4da6e7;
+  }
+  .menu .menu_collapse .menu_ul li:hover .cover {
+    top: 0;
+  }
+
+  .intro {
+    background: #f4f6f8 url("../img/intro/intro_bg.png") no-repeat -60px -50px;
+  }
+  .intro .intro_side {
+    height: 400px;
+  }
+  .intro .intro_right {
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    text-align: center !important;
+  }
+  .intro .intro_right h2 {
+    color: #4da6e7;
+    text-align: center !important;
+  }
+  .intro .intro_right span {
+    color: #4da6e7;
+  }
+  .intro .intro_right h2, .intro .intro_right h3, .intro .intro_right p {
+    line-height: 50px;
+  }
+  .intro .intro_left {
+    display: none;
+  }
+
+  .about_me .about_side {
+    height: 400px;
+  }
+  .about_me .about_left {
+    padding-top: 30px;
+  }
+  .about_me .about_left h4 {
+    text-align: center;
+  }
+  .about_me .about_left p {
+    line-height: 30px;
+    width: 100%;
+    margin-top: 15px;
+    text-align: justify;
+  }
+  .about_me .about_right {
+    padding: 15px 20% 0;
+    box-sizing: border-box;
+  }
+  .about_me .about_right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .course {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #f4f6f8 url("../img/course/qwqq.png") no-repeat 0 110px;
+  }
+  .course .container {
+    max-width: 100%;
+  }
+  .course .course_col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .course .course_box {
+    position: relative;
+    box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+    border: 1px solid rgba(114, 106, 227, 0.2862745098) !important;
+    text-transform: capitalize !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .course .course_box img {
+    width: 20px;
+    height: 20px;
+  }
+  .course .course_box h4 {
+    margin-bottom: 20px;
+  }
+  .course .course_box h4 span {
+    color: #726ae3 !important;
+  }
+  .course .course_box:hover {
+    background-color: whitesmoke;
+  }
+
+  .ability {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ability .ability_side {
+    min-height: 400px;
+  }
+  .ability .ability_right {
+    padding-top: 10px;
+  }
+  .ability .ability_right .margin {
+    margin-bottom: 15px !important;
+  }
+  .ability .ability_right .ability_title {
+    position: relative;
+    background-color: #f4f6f8;
+  }
+  .ability .ability_right .ability_title p {
+    line-height: 60px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .ability .ability_right .ability_title img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .ability .ability_right .ability_part {
+    border-top: unset !important;
+    border-bottom: unset !important;
+  }
+  .ability .ability_right .ability_part .ability_box {
+    border-bottom: 1px solid #e2e5e9;
+    position: relative;
+  }
+  .ability .ability_right .ability_part .ability_box p {
+    width: 70%;
+    border-left: 1px solid #e2e5e9;
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .ability .ability_right .ability_part .ability_box span {
+    width: 30%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+  }
+  .ability .ability_left {
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+  }
+  .ability .ability_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .goals .description .description_side {
+    height: auto;
+  }
+  .goals .description .description_right {
+    padding: 10px 15% 0;
+  }
+  .goals .description .description_right img {
+    width: 100%;
+    height: 350px;
+  }
+  .goals .description .description_left {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .goals .description .description_left p {
+    line-height: 30px;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background: #f4f6f8;
+    padding-top: 30px;
+  }
+  .contact form {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .contact form .first_col {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contact form .second_col {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contact form .form-control {
+    font-size: 14px;
+  }
+  .contact form .form_text {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 18px;
+  }
+  .contact form textarea {
+    resize: none;
+    height: 130px !important;
+  }
+  .contact form label {
+    right: 0;
+    left: unset;
+    font-size: 13px;
+  }
+  .contact form input:focus + label {
+    font-size: 12px;
+  }
+  .contact form textarea:focus + label {
+    font-size: 12px;
+  }
+  .contact .ul {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .top {
+    height: auto;
+  }
+  .top p {
+    text-align: center !important;
+    font-size: 12px;
+  }
+
+  .ul {
+    font-size: 13px;
+  }
+
+  .menu {
+    background-color: #726ae3 !important;
+    height: auto;
+  }
+  .menu .menu_collapse {
+    text-align: center;
+  }
+  .menu .menu_collapse .menu_ul li {
+    margin-left: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  .menu .menu_collapse .menu_ul li a {
+    color: #ffffff !important;
+    padding: 0 5px;
+    line-height: 45px;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+  }
+  .menu .menu_collapse .menu_ul li .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    cursor: pointer;
+    background-color: rgba(77, 166, 231, 0.03);
+  }
+  .menu .menu_collapse .menu_ul li:hover a {
+    border-bottom: 2px solid #4da6e7;
+  }
+  .menu .menu_collapse .menu_ul li:hover .cover {
+    top: 0;
+  }
+  .menu .menu_collapse .menu_ul li:hover .cover .nav-link_cover {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .intro {
+    background: #f4f6f8 url("../img/intro/intro_bg.png") no-repeat -190px -90px;
+  }
+  .intro .intro_side {
+    height: 350px;
+  }
+  .intro .intro_right {
+    padding: 50px 0 0;
+    text-align: center !important;
+  }
+  .intro .intro_right h2 {
+    color: #4da6e7;
+    text-align: center !important;
+  }
+  .intro .intro_right span {
+    color: #4da6e7;
+  }
+  .intro .intro_right h2, .intro .intro_right h3, .intro .intro_right p {
+    line-height: 40px;
+  }
+  .intro .intro_right p {
+    font-size: 13px;
+  }
+  .intro .intro_left {
+    display: none;
+  }
+
+  .about_me .about_side {
+    height: auto;
+  }
+  .about_me .about_left {
+    padding-top: 10px;
+  }
+  .about_me .about_left h4 {
+    text-align: center;
+  }
+  .about_me .about_left p {
+    line-height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 13px;
+  }
+  .about_me .about_right {
+    padding: 15px 10% 0;
+    box-sizing: border-box;
+    height: 350px;
+  }
+  .about_me .about_right img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .course {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #f4f6f8 url("../img/course/qwqq.png") no-repeat 0 110px;
+  }
+  .course .container {
+    max-width: 100%;
+  }
+  .course .course_col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .course .course_box {
+    position: relative;
+    box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+    border: 1px solid rgba(114, 106, 227, 0.2862745098) !important;
+    text-transform: capitalize !important;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .course .course_box img {
+    width: 20px;
+    height: 20px;
+  }
+  .course .course_box h4 {
+    margin-bottom: 20px;
+  }
+  .course .course_box h4 span {
+    color: #726ae3 !important;
+  }
+  .course .course_box:hover {
+    background-color: whitesmoke;
+  }
+
+  .ability {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .ability .ability_side {
+    min-height: 400px;
+  }
+  .ability .ability_right {
+    padding-top: 10px;
+  }
+  .ability .ability_right .margin {
+    margin-bottom: 15px !important;
+  }
+  .ability .ability_right .ability_title {
+    position: relative;
+    background-color: #f4f6f8;
+  }
+  .ability .ability_right .ability_title p {
+    line-height: 60px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .ability .ability_right .ability_title img {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  .ability .ability_right .ability_part {
+    border-top: unset !important;
+    border-bottom: unset !important;
+  }
+  .ability .ability_right .ability_part .ability_box {
+    border-bottom: 1px solid #e2e5e9;
+    position: relative;
+  }
+  .ability .ability_right .ability_part .ability_box p {
+    width: 70%;
+    border-left: 1px solid #e2e5e9;
+    text-align: center;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .ability .ability_right .ability_part .ability_box span {
+    width: 30%;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+  }
+  .ability .ability_left {
+    padding-left: 0;
+    padding-right: 0;
+    display: none;
+  }
+  .ability .ability_left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .goals .description .description_side {
+    height: auto;
+  }
+  .goals .description .description_right {
+    padding: 10px 15% 0;
+  }
+  .goals .description .description_right img {
+    width: 100%;
+    height: 350px;
+  }
+  .goals .description .description_left {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  .goals .description .description_left p {
+    line-height: 30px;
+  }
+
+  .contact {
+    width: 100%;
+    height: auto;
+    background: #f4f6f8;
+    padding: 30px 10px;
+  }
+  .contact form {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .contact form .first_col {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contact form .second_col {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .contact form .form-control {
+    font-size: 14px;
+  }
+  .contact form .form_text {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 18px;
+  }
+  .contact form textarea {
+    resize: none;
+    height: 130px !important;
+  }
+  .contact form label {
+    right: 0;
+    left: unset;
+    font-size: 13px;
+  }
+  .contact form input:focus + label {
+    font-size: 12px;
+  }
+  .contact form textarea:focus + label {
+    font-size: 12px;
+  }
+  .contact .ul {
+    padding-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

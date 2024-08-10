@@ -1,0 +1,415 @@
+@import "Function";
+@import "Variables";
+
+@font-face {
+  font-family: sahel;
+  src: url('../fonts/sahel.eot');
+  src: url('../fonts/sahel.eot?#iefix'),
+  url('../fonts/sahel.woff') format('woff'),
+  url('../fonts/sahel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'sahel';
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $black;
+}
+
+.blue {
+  color: $blue !important;
+}
+
+.all_btn {
+  @include btn();
+}
+
+.all_btn:hover {
+  @include btn_hover();
+}
+
+.title {
+  text-align: center;
+
+  p {
+    margin-top: 10px;
+
+    img {
+      @include size(90px, 25px)
+    }
+  }
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+p, ul li {
+  color: $gray;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.shadow {
+  box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+}
+
+.top {
+  line-height: 40px;
+  background-color: $black;
+
+  p {
+    line-height: inherit;
+    color: whitesmoke;
+    font-size: 14px;
+  }
+}
+.ul{
+  @include ul()
+}
+.nav-link_cover{
+  display: block;
+  @include size(100%,100%)
+}
+.menu {
+  text-transform: capitalize;
+  background-color: white !important;
+  height: 100px;
+  box-shadow: 5px 5px 5px whitesmoke;
+
+  .navbar-brand {
+    font-family: 'Comic Sans MS';
+    color: $black !important;
+
+    span {
+      color: $blue;
+    }
+  }
+
+  .menu_collapse {
+    direction: rtl;
+    text-align: right;
+
+    .menu_ul {
+      direction: rtl;
+      text-align: right;
+      padding: 0;
+
+      li {
+        margin-left: 10px;
+        position: relative;
+        overflow: hidden;
+
+        a {
+          color: $gray !important;
+          padding: 0 15px;
+          line-height: 40px;
+          border-color: $blue;
+          height: 40px;
+        }
+
+        .cover {
+          @include size(100%, 100%);
+          position: absolute;
+          left: 0;
+          top: -50px;
+          cursor: pointer;
+          background-color: rgba(77, 166, 231, 0.03);
+        }
+
+      }
+
+      li:hover {
+        a {
+          border-bottom: 2px solid $blue;
+        }
+
+        .cover {
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+.wrapper, .footer {
+  direction: rtl;
+  text-align: right;
+}
+
+.intro {
+  background: #f4f6f8 url("../img/intro/intro_bg.png") no-repeat 150px 130px;
+
+  .intro_side {
+    height: 580px;
+  }
+
+  .intro_right {
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 0;
+
+    h2 {
+      color: $blue;
+    }
+
+    span {
+      color: $blue;
+    }
+
+    h2, h3, p {
+      line-height: 50px;
+    }
+  }
+
+  .intro_left {
+    padding: 50px 80px 0 80px;
+    box-sizing: border-box;
+
+    img {
+      @include size(100%, 100%)
+    }
+  }
+}
+
+.about_me {
+  .about_side {
+    height: 550px;
+
+  }
+
+  .about_left {
+    padding-top: 80px;
+
+    p {
+      line-height: 25px;
+      width: 90%;
+      margin-top: 15px;
+      text-align: justify;
+    }
+
+
+
+  }
+
+  .about_right {
+    padding: 50px;
+    box-sizing: border-box;
+
+    img {
+      @include size(100%, 100%)
+    }
+  }
+}
+
+.course {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: #f4f6f8 url("../img/course/qwqq.png") no-repeat;
+
+  .course_col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .course_box {
+    position: relative;
+    box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+    border: 1px solid #726AE349 !important;
+    text-transform: capitalize !important;
+    border-radius: 4px;
+    cursor: pointer;
+    @include transition();
+
+    img {
+      @include size(20px, 20px);
+    }
+
+    h4 {
+      margin-bottom: 20px;
+
+      span {
+        color: $purple !important;
+      }
+    }
+  }
+  .course_box:hover{
+    background-color: whitesmoke;
+  }
+}
+
+.ability {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .ability_side {
+    min-height: 400px;
+  }
+
+
+
+  .ability_right {
+    padding-top: 10px;
+    //Css For Pane
+    /*
+    .ability_nav{
+      .ability_item{
+        text-align: center;
+        height: auto!important;
+        width: 50%;
+        padding: 5px;
+        box-sizing: border-box;
+
+        a{
+          line-height: 30px;
+          box-shadow: 0 0 45px rgba(114, 106, 227, 0.29);
+          border: 1px solid #726AE349!important;
+          color: $gray;
+        }
+        .active{
+          @include btn;
+          line-height: 30px;
+          box-shadow: unset;
+        }
+      }
+    }
+    .ability_tab{
+      .ability_pane{
+        padding: 15px 25px 0;
+        ol{
+          margin: 0;
+          padding: 0;
+          li{
+            color: $gray;
+            line-height: 35px;
+          }
+        }
+      }
+
+    }
+
+     */
+    //Css For Table
+    .ability_title {
+      position: relative;
+      background-color: #f4f6f8;
+
+      p {
+        line-height: 60px;
+        padding-right: 10px;
+
+      }
+
+      img {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        @include size(40px, 40px)
+      }
+    }
+
+    .ability_part {
+      border-top: unset !important;
+      border-bottom: unset !important;
+
+      .ability_box {
+        border-bottom: 1px solid #e2e5e9;
+        position: relative;
+
+        p {
+          width: 70%;
+          border-left: 1px solid #e2e5e9;
+          text-align: center;
+          font-size: 12px;
+          line-height: 35px;
+        }
+
+        span {
+          width: 30%;
+          display: block;
+          text-align: center;
+          line-height: 35px;
+        }
+
+      }
+    }
+  }
+
+
+  .ability_left {
+    padding-left: 40px;
+    padding-right: 40px;
+
+    img {
+      @include size(100%, 100%)
+    }
+  }
+}
+
+.contact {
+  @include size(100%, auto);
+  padding-bottom: 30px;
+  background: #f4f6f8;
+  padding-top: 30px;
+  form {
+    width: 70%;
+    margin: 0 auto;
+    .first_col {
+      padding-right: 0;
+    }
+    .second_col {
+      padding-left: 0;
+    }
+    .form-control{
+      font-size: 14px;
+    }
+    textarea {
+      resize: none;
+      height: 130px!important;
+    }
+    label{
+      right: 0;
+      left: unset;
+      font-size: 13px;
+    }
+    input:focus + label {
+      font-size: 12px;
+    }
+    textarea:focus + label {
+      font-size: 12px;
+    }
+
+  }
+}
+
+.goals{
+  .description{
+    .description_side{
+      height: 350px;
+    }
+    .description_right{
+      img{
+        @include size(100%,100%)
+      }
+    }
+    .description_left{
+      text-align: justify;
+      p{
+        line-height: 40px;
+      }
+    }
+  }
+}
+
